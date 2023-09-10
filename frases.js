@@ -15,14 +15,5 @@ const mostrarFrase = (elementoDom) => {
     elementoDom.innerText = `"${frase}"`;
 }
 
-const cambiaColor = (elementoDom) => {
-    elementoDom.style.background = '#766df4'
-};
 
-const recursos = {
-    mostrarFrase,
-    cambiaColor,
-}
-
-export{ recursos as default }
 
